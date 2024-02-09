@@ -1,0 +1,85 @@
+/* ------------------------------------Title------------------------------- */
+
+.MainTextTitleParent{
+    min-height: 100%;
+    display: flex; 
+    flex-direction: row;
+    position: relative;
+    min-width: 750px;
+}
+
+.MainTextTitleLeft {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.MainTextTitleRight{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.MainTextTitle{
+    color: white;
+    animation: FadeIn 0.5s linear 1.6s forwards;
+    opacity: 0;
+}
+
+/* ------------------------------------Title Content------------------------------- */
+
+.MainTextAnimation span{
+    display: inline-block;
+    transition:color 0.3S;
+}
+
+.MainTextAnimation span:hover {
+    color: #080808;
+}
+
+.MainTextTitleUnderscore {
+    animation: blink 1s infinite;
+}
+
+.MainTextSubtitle{
+    color: white;
+    animation: FadeIn 0.5s linear 2.2s forwards;
+    opacity: 0;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes FadeIn {
+  0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

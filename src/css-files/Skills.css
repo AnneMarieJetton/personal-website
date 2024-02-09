@@ -1,0 +1,101 @@
+/* ------------------------------------Skills------------------------------- */
+.MainTextSkillsParent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: 750px;
+}
+
+.MainTextSkillsTitle{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.MainTextSkillsBody{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.MainTextSkillsBodyRight,
+.MainTextSkillsBodyLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+/* ------------------------------------Skills Content------------------------------- */
+
+.MainTextLanguagesSubtitle,
+.MainTextToolsSubtitle{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    flex: 1;
+    position: absolute;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+    min-width: 0;
+}
+
+.MainTextSkillsBodyItem{
+    color:#cecece;
+    flex: 1;
+    position: absolute;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+    min-width: 0;
+}
+
+/* ------------------------------------Astronaught------------------------------- */
+
+.AstronaughtParent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.Astronaught {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    animation: floatAnimation 3s infinite alternate ease-in-out;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,72 @@
+/* ------------------------------------Project------------------------------- */
+
+.ProjectContainer {
+    flex: 1;
+    display: flex; 
+    flex-direction: row;
+    background-color: #080808;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    position: relative;
+}
+
+.ProjectContainerImage {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 5%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectContainerImage img {
+    width: 100%;
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.ProjectContainerText {
+    position: relative;
+    width: 75%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.ProjectContainerTextTitle {
+    width: 90%;
+}
+
+.ProjectContainerTextList li {
+    margin: 2px;
+    font-size: 18px;
+}
+
+/* ------------------------------------Github Links------------------------------- */
+
+.github__project__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.github__project__link:hover {
+    opacity: 0.3;
+}
+
+.github__project__link img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}

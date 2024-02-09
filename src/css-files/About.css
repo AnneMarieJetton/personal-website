@@ -1,0 +1,48 @@
+/* ------------------------------------About------------------------------- */
+
+.MainTextAboutParent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: 750px;
+}
+
+.MainTextAboutTitle{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.MainTextAboutBody{
+    color:#cecece;
+    margin-top: 40px;
+}
+
+/* ------------------------------------Cards------------------------------- */
+
+.MainTextAboutBodyCardsParent{
+    display: flex; 
+    flex-direction: row;
+}
+
+.MainTextAboutBodyCardColumn{
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.99;
+    }
+    100% {
+        opacity: 1;
+    }
+}

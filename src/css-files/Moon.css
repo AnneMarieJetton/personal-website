@@ -1,0 +1,12 @@
+/* ------------------------------------Moon------------------------------- */
+
+.moon__parent {
+    background-color: transparent;
+    top: 5%;
+    right: 5%;
+    margin: 4%;
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    flex:1;
+}

@@ -1,0 +1,79 @@
+/* ------------------------------------Experience------------------------------- */
+.MainTextExperienceParent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: 750px;
+}
+
+.MainTextExperienceTitle{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.MainTextExperienceBody{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+}
+
+/* ------------------------------------Experience Content------------------------------- */
+
+.MainTextExperienceBodySection{
+    background-color: #080808;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 20px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.MainTextExperienceBodyTitles{
+    display: flex; 
+    flex-direction: row; 
+
+}
+
+.MainTextExperienceBodyCompanyName, .MainTextExperienceBodyDate{
+    flex: 1;
+    font-weight: bold;
+}
+
+.MainTextExperienceBodyDate{
+    text-align: right;
+}
+
+.MainTextExperienceBodyJobTitle, .MainTextExperienceBodyRespAndAcom{
+    font-weight: bold;
+}
+
+.MainTextExperienceBodyJobDescription{
+    color:#cecece;
+}
+
+.MainTextExperienceBodyRespAndAcomList{
+    color:#cecece;
+    margin-top: 0;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}

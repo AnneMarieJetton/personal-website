@@ -1,0 +1,51 @@
+/* ------------------------------------Projects------------------------------- */
+
+.MainTextProjectsParent{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: 750px;
+}
+
+.MainTextProjectsTitle{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.MainTextProjectsBody{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex; 
+    flex-direction: row;
+    background-color: transparent;
+    height: auto;
+}
+
+.MainTextProjectsBodyLeft, .MainTextProjectsBodyRight {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.MainTextProjectsBodyLeft{
+    margin-right: 40px;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
