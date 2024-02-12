@@ -3,12 +3,11 @@ import './App.css';
 import Home from './js-files/Home';
 
 //-------Resources-------
-import moonFavicon from './other-files/transparent_moon.png';
+// import moonFavicon from './other-files/transparent_moon.png';
 
 //-------Other-----------
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { Helmet } from 'react-helmet';
 
 //Main app
 function App() {
@@ -16,7 +15,7 @@ function App() {
 
   //------Function Calls-----
 
-  setFavicon(moonFavicon);
+  // setFavicon(moonFavicon);
 
 
   //----------Content--------
@@ -24,9 +23,6 @@ function App() {
   return (
       <Router>
         <div className="app">
-          {/* <Helmet>
-            <title>Anne Jetton</title>
-          </Helmet> */}
           <Routes>
             <Route path="/personal-website" element={<Home />} />
           </Routes>
