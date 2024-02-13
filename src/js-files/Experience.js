@@ -31,7 +31,7 @@ const Experience = () => {
                         <span className='MainTextExperienceBodyDate'>March 2023 - Current</span>
                     </div>
                     <span className='MainTextExperienceBodyJobTitle'>Junior Software Developer<br /></span>
-                    <span className='MainTextExperienceBodyJobDescription'>Futurist EDU is a small start up located in Ogden, Utah. Their goal is to incorporate AI into the Psychology space, to help veterens and public workers with their mental health.<br /><br /></span>
+                    <span className='MainTextExperienceBodyJobDescription'>Futurist EDU is a small start up located in Ogden, Utah. Their goal is to incorporate AI into the Psychology space, to help veterans and public workers with their mental health.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
                         <li>Redesigned Website to give it a professional look</li>

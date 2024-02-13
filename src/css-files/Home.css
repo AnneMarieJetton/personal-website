@@ -2,12 +2,11 @@
 
 .main__right {
     background-color: black;
-    /* width: 10%; */
     height: 100%;
     position: fixed;
     color: #969696;
     left: 200px;
     right: 0;
-    font-family: 'cursive', 'Lucida Handwriting', 'Courier New', sans-serif;
+    font-family: 'Courier New';
     z-index: 2;
 }

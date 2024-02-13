@@ -9,7 +9,6 @@
 .MainTextContactTitle{
     margin-top: 10px;
     color: white;
-    /* font-family: 'cursive', 'Lucida Handwriting', 'Courier New', sans-serif; */
     font-size: 50px;
     animation: fade linear both;
     animation-timeline: view();
@@ -18,7 +17,6 @@
 
 .MainTextContactBody{
     color: white;
-    /* font-family: 'cursive', 'Lucida Handwriting', 'Courier New', sans-serif; */
     font-size: 20px;
     margin-top: 40px;
     display: flex;
@@ -96,7 +94,6 @@
     outline: none;
     flex: 1;
     padding-left: 8px;
-    /* font-family: 'cursive', 'Lucida Handwriting', 'Courier New', sans-serif; */
     font-size: 16px;
 }
 
@@ -104,7 +101,6 @@
     flex: 1; 
     width: 100%; 
     background-color: transparent;
-    /* font-family: 'cursive', 'Lucida Handwriting', 'Courier New', sans-serif; */
     font-size: 16px;
     border: none;
     color: black;

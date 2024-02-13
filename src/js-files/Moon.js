@@ -59,7 +59,7 @@ const Moon = () => {
 
     return (
         <>
-            <ambientLight intensity={0.07} />
+            <ambientLight intensity={0.1} />
             <pointLight color="#FFFFFF" position={[1.5, -1, 3]} intensity={2} />
             <mesh ref={mesh} scale={[.9, .9, .9]}>
                 <sphereGeometry args={[1, 32, 32]} />
