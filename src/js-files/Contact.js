@@ -31,6 +31,7 @@ const Contact = () => {
                 console.log(result.text);
                 console.log("message sent")
                 e.target.reset();
+                e.target.message.value = "Sent!";
             }, (error) => {
                 console.log(error.text);
             }
