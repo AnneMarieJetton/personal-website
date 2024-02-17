@@ -26,13 +26,11 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        // Check if all input fields are filled
         const userName = form.current.user_name.value.trim();
         const userEmail = form.current.user_email.value.trim();
         const message = form.current.message.value.trim();
     
         if (!userName || !userEmail || !message) {
-            // If any field is empty, display an error or prevent the submission
             alert("Please fill out all fields.");
             return;
         }
