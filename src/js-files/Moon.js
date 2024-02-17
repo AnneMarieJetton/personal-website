@@ -29,23 +29,32 @@ const Moon = () => {
     //UseEffect for resizing
     useEffect(() => {
         const handleResize = () => {
-            const scaleFactor = size.width / 300;
+    
+            const scaleFactor = size.width / 700;
+    
             const newRadius = 1 * scaleFactor;
+    
+            const maxRadius = 1;
+    
+            const limitedRadius = Math.min(newRadius, maxRadius);
+            console.log("limited radius: " + limitedRadius);
+    
             mesh.current.geometry.dispose();
-            mesh.current.geometry = new THREE.SphereGeometry(newRadius, 32, 32);
-        
+            mesh.current.geometry = new THREE.SphereGeometry(limitedRadius, 32, 32);
+    
             camera.aspect = size.width / size.height;
             camera.updateProjectionMatrix();
         };
-
+    
         handleResize();
-
+    
         window.addEventListener('resize', handleResize);
-
+    
         return () => {
-        window.removeEventListener('resize', handleResize);
+            window.removeEventListener('resize', handleResize);
         };
     }, [camera, size]);
+    
 
     //UseFrame for rotation
     useFrame(() => {
@@ -61,12 +70,12 @@ const Moon = () => {
         <>
             <ambientLight intensity={0.1} />
             <pointLight color="#FFFFFF" position={[1.5, -1, 3]} intensity={2} />
-            <mesh ref={mesh} scale={[.9, .9, .9]}>
+            <mesh ref={mesh} scale={[2.2, 2.2, 2.2]}>
                 <sphereGeometry args={[1, 32, 32]} />
                 <meshStandardMaterial map={moonMap} metalness={0.1} roughness={0.7} />
                 <OrbitControls
                 enableZoom={false}
-                enablePan={true}
+                enablePan={false}
                 enableRotate={true}
                 zoomSpeed={0.6}
                 panSpeed={0.5}

@@ -25,17 +25,28 @@ const Contact = () => {
     //Logic for sending an email from the email box
     const sendEmail = (e) => {
         e.preventDefault();
-
+    
+        // Check if all input fields are filled
+        const userName = form.current.user_name.value.trim();
+        const userEmail = form.current.user_email.value.trim();
+        const message = form.current.message.value.trim();
+    
+        if (!userName || !userEmail || !message) {
+            // If any field is empty, display an error or prevent the submission
+            alert("Please fill out all fields.");
+            return;
+        }
+    
         emailjs.sendForm('service_xbigsec', 'template_tdfjry8', form.current, 'WJzEQDf4WXQURNtfA')
             .then((result) => {
                 console.log(result.text);
-                console.log("message sent")
+                console.log("message sent");
                 e.target.reset();
-                e.target.message.value = "Sent!";
-            }, (error) => {
-                console.log(error.text);
-            }
-        );
+                alert("Sent!");
+            })
+            .catch((error) => {
+                console.error("Error sending email:", error);
+            });
     };
 
 
