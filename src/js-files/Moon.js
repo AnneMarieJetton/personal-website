@@ -29,42 +29,20 @@ const Moon = () => {
     //UseEffect for resizing
     useEffect(() => {
         const handleResize = () => {
-            const containerWidth = document.getElementById('MoonContainer').offsetWidth;
 
-            const scaleFactor = 750;
-
-            const newRadius = containerWidth / scaleFactor;
+            const scaleFactor = 1000;
+    
+            const calculatedRadius = size.width / scaleFactor;
     
             const maxRadius = 1;
     
-            const limitedRadius = Math.min(newRadius, maxRadius);
+            const newRadius = Math.min(calculatedRadius, maxRadius);
     
             mesh.current.geometry.dispose();
-            mesh.current.geometry = new THREE.SphereGeometry(limitedRadius, 32, 32);
+            mesh.current.geometry = new THREE.SphereGeometry(newRadius, 32, 32);
     
-            camera.aspect = containerWidth / size.height;
+            camera.aspect = size.width / size.height;
             camera.updateProjectionMatrix();
-
-
-
-            //(fullscreen - navbar - left bumper-right bumper)/2
-            // const screenSize = window.screen.width;
-            // const navbarSize = 200;
-            // const mainTextSize = screenSize - navbarSize;
-            // const mainTextPaddingSize = mainTextSize * 0.10;
-
-            // const fullDivSize = (mainTextSize - mainTextPaddingSize)/2
-
-            // const containerWidth = document.getElementById('MoonContainer').offsetWidth;
-            // const maxRadius = 1;
-            // const newRadius = containerWidth / maxRadius;
-            // const limitedRadius = Math.min(newRadius, maxRadius);
-
-            // mesh.current.geometry.dispose();
-            // mesh.current.geometry = new THREE.SphereGeometry(limitedRadius, 32, 32);
-    
-            // camera.aspect = containerWidth / size.height;
-            // camera.updateProjectionMatrix();
         };
     
         handleResize();
