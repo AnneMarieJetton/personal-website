@@ -22,6 +22,7 @@ const Moon = () => {
     const mesh = useRef();
     const { camera, size } = useThree();
     const [moonMap] = useLoader(TextureLoader, [MoonTextureMap]);
+    // const [divWidth, setDivWidth] = useState(0);
 
     
     //-------UseEffect--------
@@ -30,13 +31,37 @@ const Moon = () => {
     useEffect(() => {
         const handleResize = () => {
 
-            const scaleFactor = 1000;
+            // const scaleFactor = 1000;
     
-            const calculatedRadius = size.width / scaleFactor;
+            // const calculatedRadius = (size.width) / scaleFactor;
     
-            const maxRadius = 1;
+            // const maxRadius = 1;
     
-            const newRadius = Math.min(calculatedRadius, maxRadius);
+            // const newRadius = Math.min(calculatedRadius, maxRadius);
+
+
+
+            // if (mainTextTitleParentRef.current) {
+            //     setDivWidth(mainTextTitleParentRef.current.clientWidth);
+            // }
+
+            // const divWidth = document.getElementById('MoonContainer').offsetWidth;
+
+            // const minMoonSize = 0.25;
+            
+            // const maxMoonSize = 1;
+
+            // const minContainerWidth = 750;
+
+            // const scaleFactor = (Math.max(minContainerWidth, divWidth) / 750) * 2.5;
+
+            // const calculatedRadius = minMoonSize * scaleFactor;
+
+            // const newRadius = Math.min(maxMoonSize, Math.max(minMoonSize, calculatedRadius));
+
+
+
+            const newRadius = Math.min(document.getElementById('MoonContainer').offsetWidth / 1000, 0.8)
     
             mesh.current.geometry.dispose();
             mesh.current.geometry = new THREE.SphereGeometry(newRadius, 32, 32);
@@ -69,7 +94,7 @@ const Moon = () => {
         <>
             <ambientLight intensity={0.1} />
             <pointLight color="#FFFFFF" position={[1.5, -1, 3]} intensity={2} />
-            <mesh ref={mesh} scale={[2.2, 2.2, 2.2]}>
+            <mesh ref={mesh} scale={[3, 3, 3]}>
                 <sphereGeometry args={[1, 32, 32]} />
                 <meshStandardMaterial map={moonMap} metalness={0.1} roughness={0.7} />
                 <OrbitControls

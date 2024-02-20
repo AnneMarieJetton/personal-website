@@ -32,10 +32,9 @@ const Title = () => {
     const calculateFontSize = (minFontSize, maxFontSize) => {
         const minContainerWidth = 750;
       
-        // Adjust the scaleFactor based on your requirements
-        const scaleFactor = (Math.max(minContainerWidth, divWidth) / 750) * 2.5; // Using 750 as the reference width
+        const scaleFactor = (Math.max(minContainerWidth, divWidth) / 750) * 2.5;
       
-        const fontSize = minFontSize * scaleFactor; // Assuming the initial font size is 10px
+        const fontSize = minFontSize * scaleFactor;
       
         return Math.min(maxFontSize, Math.max(minFontSize, fontSize)) + 'px';
     };
