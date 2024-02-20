@@ -81,7 +81,7 @@ const Title = () => {
                 {/* I'm Anne*/}
             </div>
             </div>
-            <div className='MainTextTitleRight'>
+            <div className='MainTextTitleRight' id='MoonContainer'>
                 <Canvas>
                     <Suspense fallback={null}>
                     <Moon />

@@ -19,7 +19,7 @@ const Projects = () => {
     //-------Content-----------
 
     return (
-        <div className= 'MainTextProjectsParent' id="Projects">
+        <div className='MainTextProjectsParent' id="Projects">
             <div className='MainTextProjectsTitle MainTextAnimation'>
                 <span>P</span>
                 <span>r</span>

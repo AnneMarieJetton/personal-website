@@ -79,7 +79,7 @@ const Spaceship = () => {
   //----------Content--------
 
   return (
-    <div className="spaceship" style={{ left: `${mousePosition.x}px`, top: `${mousePosition.y}px`, transform: `rotate(${mousePosition.angle}deg)` }}>
+    <div className="Spaceship" style={{ left: `${mousePosition.x}px`, top: `${mousePosition.y}px`, transform: `rotate(${mousePosition.angle}deg)` }}>
       <img src={SpaceshipImage} alt="Spaceship" />
     </div>
   );

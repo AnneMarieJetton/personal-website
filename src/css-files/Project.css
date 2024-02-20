@@ -51,7 +51,7 @@
 
 /* ------------------------------------Github Links------------------------------- */
 
-.github__project__link {
+.GithubProjectLink {
     position: absolute;
     top: 0;
     right: 0;
@@ -60,11 +60,11 @@
     overflow: hidden;
 }
 
-.github__project__link:hover {
+.GithubProjectLink:hover {
     opacity: 0.3;
 }
 
-.github__project__link img {
+.GithubProjectLink img {
     width: 100%;
     height: auto;
     max-width: 100%;

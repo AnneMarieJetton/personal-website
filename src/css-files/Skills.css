@@ -9,7 +9,7 @@
     margin-top: 10px;
     color: white;
     font-size: 50px;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -42,7 +42,7 @@
     font-weight: bold;
     flex: 1;
     position: absolute;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
     min-width: 0;
@@ -52,7 +52,7 @@
     color:#cecece;
     flex: 1;
     position: absolute;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
     min-width: 0;
@@ -65,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -74,12 +74,12 @@
     max-width: 100%;
     height: auto;
     display: block;
-    animation: floatAnimation 3s infinite alternate ease-in-out;
+    animation: FloatAnimation 3s infinite alternate ease-in-out;
 }
 
 /* ------------------------------------Effects------------------------------- */
 
-@keyframes floatAnimation {
+@keyframes FloatAnimation {
     0% {
       transform: translateY(0);
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@keyframes fade {
+@keyframes Fade {
     0% {
         opacity: 0;
     }

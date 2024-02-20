@@ -9,7 +9,7 @@
     margin-top: 10px;
     color: white;
     font-size: 50px;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -31,7 +31,7 @@
     margin-bottom: 40px;
     position: relative;
     padding: 20px;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -66,7 +66,7 @@
 
 /* ------------------------------------Effects------------------------------- */
 
-@keyframes fade {
+@keyframes Fade {
     0% {
         opacity: 0;
     }

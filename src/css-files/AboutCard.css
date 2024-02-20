@@ -6,7 +6,7 @@
     margin: 10px;
     height: 0;
     position: relative;
-    animation: fade linear both;
+    animation: Fade linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
     padding-bottom: calc(100% - 20px);
@@ -83,4 +83,18 @@
     align-items: center;
     overflow: hidden;
     flex: 1;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes Fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
 }

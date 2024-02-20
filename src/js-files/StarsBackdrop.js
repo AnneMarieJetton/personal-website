@@ -14,7 +14,7 @@ const StarsBackdrop = () => {
 
     //----------Content--------
     return (
-        <div className="Stars__Parent">
+        <div className="StarsParent">
             <Canvas>
                 <Suspense fallback={null}>
                     <Stars

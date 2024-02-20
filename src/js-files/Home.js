@@ -31,7 +31,7 @@ function Home() {
   //----------Content--------
 
   return (
-    <div className="home">
+    <div className="Home">
         {loading 
         
         ? 
@@ -42,7 +42,7 @@ function Home() {
 
         <>
           <Header />
-          <div className='main__right'>
+          <div className='MainRight'>
             <MainText/>
             <StarsBackdrop/>
             <Spaceship/>

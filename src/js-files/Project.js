@@ -32,7 +32,7 @@ const Project = (props) => {
                         <li key={index}>{item}</li>
                     ))}
                 </ul>
-                <a href={Href} className="github__project__link" target="_blank" rel="noopener noreferrer">
+                <a href={Href} className="GithubProjectLink" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} alt="GitHub" />
                 </a>
             </div>

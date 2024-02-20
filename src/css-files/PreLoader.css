@@ -3,68 +3,68 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+.PreLoaderSpinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  animation: SpinnerAnimation 3.5s linear forwards;
+}
+
+/* ------------------------------------Effects------------------------------- */
+
+@keyframes SpinnerAnimation {
+  0% {
+    background-color: #FFFFFF;
   }
-  
-  .preLoaderSpinner {
-    position: fixed;
-    top: 0;
-    left: 0;
+
+  50% {
+    background-color: #FFFFFF;
+  }
+
+  85% {
+    background-color: #080808;
+  }
+
+  100% {
+    background-color: #080808;
+  }
+}
+
+@keyframes FadeAnimation {
+  0% {
+    color: #080808;
+    font-size: 24px;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    animation: spinnerAnimation 3.5s linear forwards;
   }
-  
-  /* ------------------------------------Effects------------------------------- */
-  
-  @keyframes spinnerAnimation {
-    0% {
-      background-color: #FFFFFF;
-    }
-  
-    50% {
-      background-color: #FFFFFF;
-    }
-  
-    85% {
-      background-color: #080808;
-    }
-  
-    100% {
-      background-color: #080808;
-    }
+
+  40% {
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
   }
-  
-  @keyframes fadeAnimation {
-    0% {
-      color: #080808;
-      font-size: 24px;
-      width: 100%;
-      height: 100%;
-    }
-  
-    40% {
-      color: #FFFFFF;
-      font-size: 24px;
-      width: 100%;
-      height: 100%;
-    }
-  
-    80% {
-      color: #080808;
-      font-size: 24px;
-      width: 100%;
-      height: 100%;
-    }
-  
-    100% {
-      font-size: 0px;
-      width: 10%;
-      height: 100%;
-    }
+
+  80% {
+    color: #080808;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
   }
-    
+
+  100% {
+    font-size: 0px;
+    width: 10%;
+    height: 100%;
+  }
+}
+  

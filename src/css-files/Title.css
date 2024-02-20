@@ -44,7 +44,7 @@
 }
 
 .MainTextTitleUnderscore {
-    animation: blink 1s infinite;
+    animation: Blink 1s infinite;
 }
 
 .MainTextSubtitle{
@@ -66,7 +66,7 @@
   }
 }
 
-@keyframes blink {
+@keyframes Blink {
   0% {
     opacity: 1;
   }

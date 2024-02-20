@@ -12,7 +12,7 @@ const PreLoader = () => {
   //----------Content--------
 
   return (
-    <div className="preLoaderSpinner">
+    <div className="PreLoaderSpinner">
       <div>
         <BounceLoader
           size={100}

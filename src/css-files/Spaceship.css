@@ -1,13 +1,13 @@
 /* ------------------------------------Spaceship------------------------------- */
 
-.spaceship {
-    position: absolute;
-    z-index: 3;
-    transform-origin: top left;
-    pointer-events: none;
-  }
-  
-  .spaceship img {
-    width: 50px;
-    height: auto;
-  }
+.Spaceship {
+  position: absolute;
+  z-index: 3;
+  transform-origin: top left;
+  pointer-events: none;
+}
+
+.Spaceship img {
+  width: 50px;
+  height: auto;
+}

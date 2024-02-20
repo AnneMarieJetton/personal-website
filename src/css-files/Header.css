@@ -1,213 +1,213 @@
 /* ------------------------------------Header------------------------------- */
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    background-color: #080808;
-    border-right: 1px solid #0e0e0e;
-    z-index: 2;
-    animation: introSlide 1s linear forwards;
-  }
-  
-  /* ------------------------------------Header Content------------------------------- */
-  
-  .logo__parent {
-    font-size: 48px;
-    text-align: center;
-    opacity: 0;
-    background-color: black;
-    height: 29vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .header__logo{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .header__logo img{
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: auto;
-  }
-  
-  .header__logo__text__1 {
-    font-size: 24px;
-    color: white;
-    margin-bottom: 15px;
-    position: relative;
-  }
-  
-  .header__logo__text__2 {
-    font-size: 10px;
-    color: #969696;
-    margin-bottom: 20px;
-  }
-  
-  /* ------------------------------------Nav------------------------------- */
-  
-  .header__nav {
-    text-align: center;
-  }
-  
-  .header__option {
-    margin-left: 1px;
-    margin-right: 1px;
-    border-top: 1px solid #0e0e0e;
-    border-bottom: 1px solid #0e0e0e;
-    height: 6vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .header__link {
-    color: #969696;
-    text-decoration: none;
-  }
-  
-  .header__option:hover {
-    background-color: #111111;
-  }
-  
-  /* ------------------------------------Nav Animations------------------------------- */
-  
-  .header__anim__1 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.0s forwards;
-  }
-  
-  .header__anim__2 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.1s forwards;
-  }
-  
-  .header__anim__3 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.2s forwards;
-  }
-  
-  .header__anim__4 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.3s forwards;
-  }
-  
-  .header__anim__5 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.4s forwards;
-  }
-  
-  .header__anim__6 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.5s forwards;
-  }
-  
-  .header__anim__7 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.6s forwards;
-  }
-  
-  .header__anim__8 {
-    opacity: 0;
-    animation: slide 0.1s linear 1.7s forwards;
-  }
-  
-  
-  /* ------------------------------------S------------------------------- */
-  
-  .social-links {
-    display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  
-  .social-links a {
-      flex: 1;
-  }
-  
-  .github__link img{
-      width: 40%;
-      height: 80%;
-      opacity: 60%;
-  }
-  
-  .linkedin__link img{
-    height: 80%;
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #080808;
+  border-right: 1px solid #0e0e0e;
+  z-index: 2;
+  animation: IntroSlide 1s linear forwards;
+}
+
+/* ------------------------------------Header Content------------------------------- */
+
+.LogoParent {
+  font-size: 48px;
+  text-align: center;
+  opacity: 0;
+  background-color: black;
+  height: 29vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderLogo{
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.HeaderLogo img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.HeaderLogoText1 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.HeaderLogoText2 {
+  font-size: 10px;
+  color: #969696;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------Nav------------------------------- */
+
+.HeaderNav {
+  text-align: center;
+}
+
+.HeaderOption {
+  margin-left: 1px;
+  margin-right: 1px;
+  border-top: 1px solid #0e0e0e;
+  border-bottom: 1px solid #0e0e0e;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderLink {
+  color: #969696;
+  text-decoration: none;
+}
+
+.HeaderOption:hover {
+  background-color: #111111;
+}
+
+/* ------------------------------------Nav Animations------------------------------- */
+
+.HeaderAnim1 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.0s forwards;
+}
+
+.HeaderAnim2 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.1s forwards;
+}
+
+.HeaderAnim3 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.2s forwards;
+}
+
+.HeaderAnim4 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.3s forwards;
+}
+
+.HeaderAnim5 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.4s forwards;
+}
+
+.HeaderAnim6 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.5s forwards;
+}
+
+.HeaderAnim7 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.6s forwards;
+}
+
+.HeaderAnim8 {
+  opacity: 0;
+  animation: Slide 0.1s linear 1.7s forwards;
+}
+
+
+/* ------------------------------------S------------------------------- */
+
+.SocialLinks {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.SocialLinks a {
+    flex: 1;
+}
+
+.GithubLink img{
     width: 40%;
-    opacity: 60%;
-  }
-  
-  .email__link img{
     height: 80%;
-    width: 50%;
     opacity: 60%;
+}
+
+.LinkedinLink img{
+  height: 80%;
+  width: 40%;
+  opacity: 60%;
+}
+
+.EmailLink img{
+  height: 80%;
+  width: 50%;
+  opacity: 60%;
+}
+
+.GithubLink:hover,
+.LinkedinLink:hover,
+.EmailLink:hover {
+  opacity: 0.3;
+}
+
+/* ------------------------------------About------------------------------- */
+
+@keyframes IntroSlide {
+  0% {
+    width: 100%;
+    z-index: 3;
   }
-  
-  .github__link:hover,
-  .linkedin__link:hover,
-  .email__link:hover {
-    opacity: 0.3;
+
+  60% {
+    width: 600px;
+    z-index: 3;
   }
-  
-  /* ------------------------------------About------------------------------- */
-  
-  @keyframes introSlide {
-    0% {
-      width: 100%;
-      z-index: 3;
-    }
-  
-    60% {
-      width: 600px;
-      z-index: 3;
-    }
-  
-    70% {
-      width: 400px;
-      z-index: 3;
-    }
-  
-    80% {
-      width: 300px;
-      z-index: 3;
-    }
-  
-    90% {
-      width: 225px;
-      z-index: 3;
-    }
-  
-    99% {
-      width: 200px;
-      z-index: 3;
-    }
-  
-    100% {
-      z-index: 2;
-      width: 200px;
-    }
+
+  70% {
+    width: 400px;
+    z-index: 3;
   }
-  
-  @keyframes slide {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+
+  80% {
+    width: 300px;
+    z-index: 3;
   }
+
+  90% {
+    width: 225px;
+    z-index: 3;
+  }
+
+  99% {
+    width: 200px;
+    z-index: 3;
+  }
+
+  100% {
+    z-index: 2;
+    width: 200px;
+  }
+}
+
+@keyframes Slide {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
   
