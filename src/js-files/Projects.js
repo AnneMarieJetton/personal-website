@@ -90,13 +90,13 @@ const Projects = () => {
                         Logo={PythonLogo} 
                     />
                     <Project 
-                        Title={'Arthur\'s chat room'} 
+                        Title={'Amazon Clone'} 
                         List={[
-                            "A chatroom created by Sir Arthur's own two paws, This is a chat room where you can chat with others. (and Arthur) ",
+                            "A Reproduction of Amazon's website, built from scratch using React.",
                             "Use of Firebase",
-                            "Proof of React Knowledge"
+                            "Proof of React Knowledge, and full stack proficiency."
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/ArthursChatRoom"}
+                        Href={"https://github.com/AnneMarieJetton/Amazon-Clone"}
                         Logo={ReactLogo} 
                     />
                 </div>

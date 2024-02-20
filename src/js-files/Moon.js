@@ -30,37 +30,6 @@ const Moon = () => {
     //UseEffect for resizing
     useEffect(() => {
         const handleResize = () => {
-
-            // const scaleFactor = 1000;
-    
-            // const calculatedRadius = (size.width) / scaleFactor;
-    
-            // const maxRadius = 1;
-    
-            // const newRadius = Math.min(calculatedRadius, maxRadius);
-
-
-
-            // if (mainTextTitleParentRef.current) {
-            //     setDivWidth(mainTextTitleParentRef.current.clientWidth);
-            // }
-
-            // const divWidth = document.getElementById('MoonContainer').offsetWidth;
-
-            // const minMoonSize = 0.25;
-            
-            // const maxMoonSize = 1;
-
-            // const minContainerWidth = 750;
-
-            // const scaleFactor = (Math.max(minContainerWidth, divWidth) / 750) * 2.5;
-
-            // const calculatedRadius = minMoonSize * scaleFactor;
-
-            // const newRadius = Math.min(maxMoonSize, Math.max(minMoonSize, calculatedRadius));
-
-
-
             const newRadius = Math.min(document.getElementById('MoonContainer').offsetWidth / 1000, 0.8)
     
             mesh.current.geometry.dispose();
