@@ -22,7 +22,6 @@ const Moon = () => {
     const mesh = useRef();
     const { camera, size } = useThree();
     const [moonMap] = useLoader(TextureLoader, [MoonTextureMap]);
-    // const [divWidth, setDivWidth] = useState(0);
 
     
     //-------UseEffect--------
