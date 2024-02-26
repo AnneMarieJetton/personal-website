@@ -34,9 +34,9 @@ const Experience = () => {
                     <span className='MainTextExperienceBodyJobDescription'>Futurist EDU is a small start up located in Ogden, Utah. Their goal is to incorporate AI into the Psychology space, to help veterans and public workers with their mental health.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
-                        <li>Redesigned Website to give it a professional look</li>
-                        <li>Developed tools to assist with document storage</li>
-                        <li>Assisted in upgrading storage system and setting up SQL system</li>
+                        <li>Worked with others in redesigning the main website to give a more professional look.</li>
+                        <li>Developed tools to assist with document generation, greatly decreasing time spent on documents</li>
+                        <li>Implemented API Requests that automated previously manual tasks</li>
                     </ul>
                 </div>
                 <div className='MainTextExperienceBodySection'>
@@ -62,9 +62,9 @@ const Experience = () => {
                     <span className='MainTextExperienceBodyJobDescription'>During my years at USU, I worked as a tutor among my peers and lower classmen to teach subject material, complete assignments, and study for tests.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
-                        <li>Scheduled and kept appointments for tutoring</li>
-                        <li>Instructed in groups for team learning</li>
-                        <li>Worked alongside other tutors</li>
+                        <li>Assisted in identifying and correcting errors in others code</li>
+                        <li>Worked alongside other tutors to solve problems</li>
+                        <li>Taught and explained concepts to lower classmen and peers</li>
                     </ul>
                 </div>
             </div>

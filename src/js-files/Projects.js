@@ -71,7 +71,7 @@ const Projects = () => {
                         Title={'Whats the password?'} 
                         List={[
                             "A fun password generator ...where there are far too many rules.",
-                            "Use of Apis",
+                            "Use of APIs",
                             "Use of GUI tools",
                             "Proof of Java Knowledge"
                         ]} 
