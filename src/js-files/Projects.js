@@ -36,10 +36,10 @@ const Projects = () => {
                     <Project 
                         Title={'BagIt.com'} 
                         List={[
-                            "An online grocery shopping experience Created using Vue.js.",
+                            "An online grocery shopping experience created using Vue.js.",
                             "Use of reusable components",
                             "Use of APIs",
-                            "Proof of Vue Knowledge"
+                            "Proof of Vue knowledge"
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/BagIt"}
                         Logo={VueLogo} 
@@ -50,7 +50,7 @@ const Projects = () => {
                             "Use of external files",
                             "Use of reusable components",
                             "Use of GUI tools",
-                            "Proof of C++ Knowledge"
+                            "Proof of C++ knowledge"
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/CppTodoList"}
                         Logo={CppLogo} 
@@ -60,7 +60,7 @@ const Projects = () => {
                         List={[
                             "A deep dive into the covid data from 2020, This project makes use of SQL to understand and learn from the data.",
                             "Use of Tableau",
-                            "Proof of SQL Knowledge"
+                            "Proof of SQL knowledge"
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/SQLCovidDataExploration"}
                         Logo={SQLLogo} 
@@ -73,7 +73,7 @@ const Projects = () => {
                             "A fun password generator ...where there are far too many rules.",
                             "Use of APIs",
                             "Use of GUI tools",
-                            "Proof of Java Knowledge"
+                            "Proof of Java knowledge"
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/WhatsThePassword"}
                         Logo={JavaLogo} 
@@ -84,7 +84,7 @@ const Projects = () => {
                             "The classic game, with a bit of a twist, written in python.",
                             "Use of Pygame",
                             "Use of GUI tools",
-                            "Proof of Python Knowledge"
+                            "Proof of Python knowledge"
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/UnfairChess"}
                         Logo={PythonLogo} 
@@ -92,9 +92,9 @@ const Projects = () => {
                     <Project 
                         Title={'Amazon Clone'} 
                         List={[
-                            "A Reproduction of Amazon's website, built from scratch using React.",
+                            "A Reproduction of the online superstore, built from scratch using React.",
                             "Use of Firebase",
-                            "Proof of React Knowledge, and full stack proficiency."
+                            "Proof of React knowledge, and full stack proficiency."
                         ]} 
                         Href={"https://github.com/AnneMarieJetton/Amazon-Clone"}
                         Logo={ReactLogo} 
