@@ -58,7 +58,7 @@ const Projects = () => {
                     <Project 
                         Title={'SQL Covid Data Exploration'} 
                         List={[
-                            "A deep dive into the covid data from 2020, This project makes use of SQL to understand and learn from the data.",
+                            "A deep dive into the covid data from 2020, this project makes use of SQL to understand and learn from the data.",
                             "Use of Tableau",
                             "Proof of SQL knowledge"
                         ]} 
@@ -92,7 +92,7 @@ const Projects = () => {
                     <Project 
                         Title={'Amazon Clone'} 
                         List={[
-                            "A Reproduction of the online superstore, built from scratch using React.",
+                            "A reproduction of the online superstore, built from scratch using React.",
                             "Use of Firebase",
                             "Proof of React knowledge, and full stack proficiency."
                         ]} 

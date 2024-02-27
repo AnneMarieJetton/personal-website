@@ -29,7 +29,8 @@ const Moon = () => {
     //UseEffect for resizing
     useEffect(() => {
         const handleResize = () => {
-            const newRadius = Math.min(document.getElementById('MoonContainer').offsetWidth / 1000, 0.8)
+            // const newRadius = Math.min(document.getElementById('MoonContainer').offsetWidth / 1000, 0.8)
+            const newRadius = Math.min(document.getElementById('MoonContainer').offsetWidth / 1000, 1)
     
             mesh.current.geometry.dispose();
             mesh.current.geometry = new THREE.SphereGeometry(newRadius, 32, 32);
@@ -62,7 +63,7 @@ const Moon = () => {
         <>
             <ambientLight intensity={0.1} />
             <pointLight color="#FFFFFF" position={[1.5, -1, 3]} intensity={2} />
-            <mesh ref={mesh} scale={[3, 3, 3]}>
+            <mesh ref={mesh} scale={[1, 1, 1]}>
                 <sphereGeometry args={[1, 32, 32]} />
                 <meshStandardMaterial map={moonMap} metalness={0.1} roughness={0.7} />
                 <OrbitControls
