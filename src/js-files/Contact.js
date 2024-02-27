@@ -95,7 +95,7 @@ const Contact = () => {
                                 <img src={linkedinLogo} alt="LinkedIn" />
                             </a>
                         </div>
-                        <span>Visit my LinkedIn Profile!</span>
+                        <span>Visit my LinkedIn profile!</span>
                     </div>
                     <div className='MainTextContactMessageDiv' style={{ marginBottom: 0 }}>
                         <div className='ContactImage'>

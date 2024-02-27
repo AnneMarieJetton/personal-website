@@ -34,9 +34,9 @@ const Experience = () => {
                     <span className='MainTextExperienceBodyJobDescription'>Futurist EDU is a small start up located in Ogden, Utah. Their goal is to incorporate AI into the psychology space, to help veterans and public workers with their mental health.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
-                        <li>Worked with others in redesigning the main website to give a more professional look.</li>
-                        <li>Developed tools to assist with document generation, greatly decreasing time spent on documents</li>
-                        <li>Implemented API requests that automated previously manual tasks</li>
+                        <li>Redesigned and implemented the main website using React.js, leading to an increase of 30% in interested investors and donations.</li>
+                        <li>Designed and presented wireframes for future additions to the website.</li>
+                        <li>Led the development of a payroll tool to address the growing number of employees. Use of the tool reduced time spent on payroll by 60%. </li>
                     </ul>
                 </div>
                 <div className='MainTextExperienceBodySection'>
@@ -48,9 +48,9 @@ const Experience = () => {
                     <span className='MainTextExperienceBodyJobDescription'>Cubic is a transportation company based out of San Diego, California. As an intern, I worked on a scrum team to develop internal tools that were used by senior developers for larger development projects, as well as debugging and documenting pre-existing code.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
-                        <li>Daily Scrum Meetings</li>
-                        <li>Led the development of a YAML document generation tool that increased the speed of YAML tasks by 99%</li>
-                        <li>Upgraded pre-existing high level software</li>
+                        <li>Redesigned existing web apps and added new functionality that increased speed of navigation by 30%.</li>
+                        <li>Led the development of YAML document generation tools that increased the speed of document generation by 99%. </li>
+                        <li>Upgraded pre-existing high level software to current versions of Java. Testing with these upgrades resulted in a 100% pass rate.</li>
                     </ul>
                 </div>
                 <div className='MainTextExperienceBodySection'>
@@ -62,9 +62,9 @@ const Experience = () => {
                     <span className='MainTextExperienceBodyJobDescription'>During my years at USU, I worked as a tutor among my peers and lower classmen to teach subject material, complete assignments, and study for tests.<br /><br /></span>
                     <span className='MainTextExperienceBodyRespAndAcom'>Responsibilities and Acomplishments:</span>
                     <ul className='MainTextExperienceBodyRespAndAcomList'>
-                        <li>Assisted in identifying and correcting errors in others code</li>
-                        <li>Worked alongside other tutors to solve problems</li>
-                        <li>Taught and explained concepts to lower classmen and peers</li>
+                        <li>Scheduled meetings with underclassmen and peers, resulting in more than 500 total meetings concerning web dev, data structures and algorithms, and other material.</li>
+                        <li>Tutoring appointments led to as much as a 90% increase in material understanding.</li>
+                        <li>Collaborated with other tutors to deliver clear and concise instruction.</li>
                     </ul>
                 </div>
             </div>
