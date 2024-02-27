@@ -72,39 +72,39 @@ const About = () => {
             <div className='MainTextAboutBody' style={{ fontSize: calculateFontSize(4, 20) }}>
                 <div className='MainTextAboutBodyCardsParent'>
                     <div className='MainTextAboutBodyCardColumn'>
-                        <AboutCard CardBackText={'My favorite holiday is Halloween.'} Chosen={false} />
-                        <AboutCard CardBackText={'I was born and raised in Orlando, Florida.'} Chosen={true} />
-                        <AboutCard CardBackText={'I have a cat named Sir Arthur. Take a look! \u2192'} Chosen={false} />
+                        <AboutCard CardBackText={'I\'m eager to dive in, enthusiastic about opportunities'} Chosen={false} />
+                        <AboutCard CardBackText={'I have 6+ years of experience in software.'} Chosen={true} />
+                        <AboutCard CardBackText={'I\'m a skilled problem-solver, adept at finding efficient solutions.'} Chosen={false} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
                         <AboutCard CardBackText={'Hi, I\'m Anne, a software developer.'} Chosen={true} />
-                        <AboutCard CardBackText={'I love creepy video games like \'Little Nightmares\'.'} Chosen={false} />
-                        <AboutCard CardBackText={<img src={Arthur} alt="Arthur" />} Chosen={false} />
+                        <AboutCard CardBackText={'I collaborate closely with users and teams, ensuring smooth workflow.'} Chosen={false} />
+                        <AboutCard CardBackText={'I handle many tasks well, multitasking with ease.'} Chosen={false} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
-                        <AboutCard CardBackText={'Glacier National Park is my favorite park.'} Chosen={false} />
-                        <AboutCard CardBackText={'I really do hate tomatoes.'} Chosen={false} />
+                        <AboutCard CardBackText={'I adapt quickly to changes, flexibly adjusting as needed.'} Chosen={false} />
+                        <AboutCard CardBackText={'I fix problems swiftly, troubleshooting with skill.'} Chosen={false} />
                         <AboutCard CardBackText={'I\'m a fast learner, and am always willing to learn a new skill.'} Chosen={true} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
                         <AboutCard CardBackText={'I enjoy working with others, and collaberating on projects.'} Chosen={true} />
-                        <AboutCard CardBackText={'I was the valedictorian of my high school class.'} Chosen={false} />
-                        <AboutCard CardBackText={'My favorite dessert is crepes with cream cheese filling.'} Chosen={false} />
+                        <AboutCard CardBackText={'I manage time well, optimizing productivity effectively.'} Chosen={false} />
+                        <AboutCard CardBackText={'I\'m friendly and approachable, maintaining a professional attitude.'} Chosen={false} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
-                        <AboutCard CardBackText={'I love the smell of a new book.'} Chosen={false} />
-                        <AboutCard CardBackText={'My favorite coding project is Unfair Chess. You can find it below!'} Chosen={false} />
-                        <AboutCard CardBackText={'One day, I would love to own a 1967 Chevy Impala.'} Chosen={false} />
+                        <AboutCard CardBackText={'I lead teams effectively, guiding with skill and dedication.'} Chosen={false} />
+                        <AboutCard CardBackText={'My favorite coding project is Unfair Chess, which is linked below.'} Chosen={false} />
+                        <AboutCard CardBackText={'I\'m proactive and motivated, initiating tasks with enthusiasm'} Chosen={false} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
-                        <AboutCard CardBackText={'My favorite color is this specific shade of green. \u2192'} Chosen={false} />
-                        <AboutCard CardBackText={'I think most cakes are too dry.'} Chosen={false} />
+                        <AboutCard CardBackText={'I\'m a strong communicator, conveying ideas clearly and effectively.'} Chosen={false} />
+                        <AboutCard CardBackText={'I strive to make a significant difference, leaving a positive mark'} Chosen={false} />
                         <AboutCard CardBackText={'I deliver clean and efficient code in a timely manner.'} Chosen={true} />
                     </div>
                     <div className='MainTextAboutBodyCardColumn'>
-                        <AboutCard CardBackText={<img src={Green} alt="Green Image" />} Chosen={false} />
+                        <AboutCard CardBackText={'I handle conflicts with diplomacy, addressing issues calmly.'} Chosen={false} />
                         <AboutCard CardBackText={'I\'m never afraid to take on a new challenge.'} Chosen={true} />
-                        <AboutCard CardBackText={'I love victorian architecture.'} Chosen={false} />
+                        <AboutCard CardBackText={'I excel at independent work, managing tasks with self-reliance.'} Chosen={false} />
                     </div>
                 </div>
             </div>
