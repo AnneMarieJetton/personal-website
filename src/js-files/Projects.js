@@ -34,15 +34,14 @@ const Projects = () => {
             <div className='MainTextProjectsBody'>
                 <div className='MainTextProjectsBodyLeft'>
                     <Project 
-                        Title={'BagIt.com'} 
+                        Title={'Amazon Clone'} 
                         List={[
-                            "An online grocery shopping experience created using Vue.js.",
-                            "Use of reusable components",
-                            "Use of APIs",
-                            "Proof of Vue knowledge"
+                            "A reproduction of the online superstore, built from scratch using React.",
+                            "Use of Firebase",
+                            "Proof of React knowledge, and full stack proficiency"
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/BagIt"}
-                        Logo={VueLogo} 
+                        Href={"https://github.com/AnneMarieJetton/Amazon-Clone"}
+                        Logo={ReactLogo} 
                     />
                     <Project 
                         Title={'C++ Todo List Application'} 
@@ -56,13 +55,13 @@ const Projects = () => {
                         Logo={CppLogo} 
                     />
                     <Project 
-                        Title={'SQL Covid Data Exploration'} 
+                        Title={'Animal Crossing SQL Build'} 
                         List={[
-                            "A deep dive into the covid data from 2020, this project makes use of SQL to understand and learn from the data.",
-                            "Use of Tableau",
+                            "An SQL project based of of the item system found in the video game 'Animal Crossing'.",
+                            "Examples of functional complex queries",
                             "Proof of SQL knowledge"
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/SQLCovidDataExploration"}
+                        Href={"https://github.com/AnneMarieJetton/AnimalCrossingSQLProject"}
                         Logo={SQLLogo} 
                     />
                 </div>
@@ -90,14 +89,15 @@ const Projects = () => {
                         Logo={PythonLogo} 
                     />
                     <Project 
-                        Title={'Amazon Clone'} 
+                        Title={'BagIt.com'} 
                         List={[
-                            "A reproduction of the online superstore, built from scratch using React.",
-                            "Use of Firebase",
-                            "Proof of React knowledge, and full stack proficiency."
+                            "An online grocery shopping experience created using Vue.js.",
+                            "Use of reusable components",
+                            "Use of APIs",
+                            "Proof of Vue knowledge"
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/Amazon-Clone"}
-                        Logo={ReactLogo} 
+                        Href={"https://github.com/AnneMarieJetton/BagIt"}
+                        Logo={VueLogo} 
                     />
                 </div>
             </div>
