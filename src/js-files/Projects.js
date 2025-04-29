@@ -9,6 +9,7 @@ import CppLogo from '../other-files/cpp_white_logo.png';
 import SQLLogo from '../other-files/sql_white_logo.png';
 import JavaLogo from '../other-files/java_white_logo.png';
 import PythonLogo from '../other-files/python_white_logo.png';
+import NodeLogo from '../other-files/node_white_logo.png';
 
 //-------Other-----------
 import React from 'react';
@@ -67,25 +68,24 @@ const Projects = () => {
                 </div>
                 <div className='MainTextProjectsBodyRight'>
                     <Project 
-                        Title={'Whats the password?'} 
+                        Title={'CCIntranet'} 
                         List={[
-                            "A fun password generator ...where there are far too many rules.",
-                            "Use of APIs",
-                            "Use of GUI tools",
-                            "Proof of Java knowledge"
+                            "An internal portal used for the Sundance call center.",
+                            "Use of LDAP authentication",
+                            "Use of MySQL",
+                            "Proof of Node knowledge"
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/WhatsThePassword"}
-                        Logo={JavaLogo} 
+                        Href={"https://github.com/AnneMarieJetton/CCIntranet"}
+                        Logo={NodeLogo} 
                     />
                     <Project 
-                        Title={'Unfair Chess'} 
+                        Title={'DiscountableJob'} 
                         List={[
-                            "The classic game, with a bit of a twist, written in python.",
-                            "Use of Pygame",
-                            "Use of GUI tools",
+                            "An internal tool created for sundance to tag specific items as 'discountable'.",
+                            "Use of Shopify's Graphql API",
                             "Proof of Python knowledge"
                         ]} 
-                        Href={"https://github.com/AnneMarieJetton/UnfairChess"}
+                        Href={"https://github.com/AnneMarieJetton/MarkAsDiscountableTool"}
                         Logo={PythonLogo} 
                     />
                     <Project 
