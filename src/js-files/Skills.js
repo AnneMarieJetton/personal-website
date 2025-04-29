@@ -85,17 +85,17 @@ const Skills = () => {
                 </div>
                 <div className='MainTextSkillsBodyRight'>
                     <span className='MainTextToolsSubtitle' >Tools</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '33.33%', top: '10%' }}>React.JS</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '63.33%', top: '18%' }}>THREE.JS</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '23.33%', top: '26%' }}>Vue</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '53.33%', top: '34%' }}>SQL</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '13.33%', top: '42%' }}>Jenkins</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '63.33%', top: '50%' }}>Artifactory</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '43.33%', top: '58%' }}>Git</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '83.33%', top: '66%' }}>JIRA</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '33.33%', top: '74%' }}>Firebase</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '73.33%', top: '82%' }}>Stripe</span>
-                    <span className='MainTextSkillsBodyItem' style={{ left: '13.33%', top: '90%' }}>Pygame</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '33.33%', top: '10%' }}>Node</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '63.33%', top: '18%' }}>React</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '23.33%', top: '26%' }}>MySQL</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '53.33%', top: '34%' }}>GraphQL</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '13.33%', top: '42%' }}>Git</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '63.33%', top: '50%' }}>System Administration</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '43.33%', top: '58%' }}>Jira</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '83.33%', top: '66%' }}>Vue</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '33.33%', top: '74%' }}>Artifactory</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '73.33%', top: '82%' }}>Jenkins</span>
+                    <span className='MainTextSkillsBodyItem' style={{ left: '13.33%', top: '90%' }}>Stripe</span>
                     <span className='MainTextSkillsBodyItem' style={{ left: '63.33%', top: '98%' }}>Postman</span>
                 </div>
             </div>
